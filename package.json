@@ -1,0 +1,36 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "scripts": {
+    "dev": "webpack",
+    "watch": "npm run dev -- --watch"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "vue": "^2.6.11",
+    "vuetify": "^2.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-stage-3": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.0",
+    "deepmerge": "^4.2.2",
+    "fibers": "^4.0.2",
+    "sass": "^1.23.7",
+    "sass-loader": "^8.0.0",
+    "vue-cli-plugin-vuetify": "^2.0.2",
+    "vue-loader": "^15.8.3",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.4.3",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
+  },
+  "keywords": [],
+  "license": "ISC"
+}
